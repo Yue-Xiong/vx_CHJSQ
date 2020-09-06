@@ -1,0 +1,37 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: gold;
+}
+
+.usermotto {
+  margin-top: 36rpx;
+  color: gold;
+  font-weight: bolder;
+  font-size: 60rpx;
+}
+.kaishi{
+  color: gold;
+  font-weight: bolder;
+  font-size: 60rpx;
+}
+.zhongjian{
+  color: gold;
+  font-weight: bolder;
+  margin: 20rpx;
+}
+.jisuankaishi{
+  margin: 36rpx;
+}

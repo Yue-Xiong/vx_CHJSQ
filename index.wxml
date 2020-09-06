@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="kaishi">
+    <text>祝</text>
+  </view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取昵称以便使用 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>  
+  </view>
+  <view class="zhongjian">
+    <text>和TA的</text>
+  </view>
+  <view class="jisuankaishi"  bindtap='test'><button>家人</button></view>
+  <view class="usermotto">
+    <text class="user-motto">身体健康</text>
+    <view><text class="user-motto">万事如意</text></view>
+  </view>
+</view>

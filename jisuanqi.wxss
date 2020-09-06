@@ -1,0 +1,66 @@
+/* pages/jisuanqi/jisuanqi.wxss */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.basic {
+  width: 23.75%;
+  height: 45px;
+  margin: 1px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 26px;
+  border: 1px solid #cbd3d3;
+  border-radius: 5px;
+}
+
+.color {
+  background-color: #f0ffff;
+}
+
+.screen {
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  line-height: 40px;
+  background-color: papayawhip;
+  font-size: 30px;
+}
+
+.ac {
+  color: #f00;
+  background-color: #f0ffff;
+}
+
+.equ {
+  width: 100%;
+  height: 45px;
+  margin: 1px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 26px;
+  border: 1px solid papayawhip;
+  border-radius: 5px;
+}
+.tishi{
+    font-size: 20px;
+    color: oldlace;
+    text-align: left;
+    margin: 10rpx;
+}
+
+.tishi_info{
+    font-size: 10px;
+    text-align: left;
+    margin: 8rpx;
+    color: oldlace;
+}
+.lianxi{
+    font-size: 8px;
+    text-align: center;
+    margin: 66rpx;
+    color: oldlace;
+}

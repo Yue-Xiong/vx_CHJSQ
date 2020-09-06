@@ -1,0 +1,17 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/jisuanqi/jisuanqi"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffd700",
+    "navigationBarTitleText": "亲戚称呼计算器",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

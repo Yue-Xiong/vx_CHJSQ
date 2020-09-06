@@ -1,0 +1,23 @@
+<!--pages/cal/cal.wxml-->
+<view class="tishi"><text>提示：</text></view>
+<view class="tishi_info"><text>1.按键"我"可以复位.</text></view>
+<view class="tishi_info"><text>2.按键顺序:“我”-“的”-“称谓”-“称谓”-“是”.</text></view>
+<view class="tishi_info"><text>3.由于作者能力有限,目前只能计算2次称谓.</text></view>
+<view class="tishi_info"><text>4.部分称谓有区域差别,请见谅.</text></view>
+<view class='container'>
+  <view class='screen'>{{first}}</view>
+  <view class='screen'>{{op}}</view>
+  <view class='screen'>{{second}}</view>
+  <view class='screen'>{{last}}</view>
+  <view class='screen'>{{sum}}</view>
+    <view class='basic ac' id='AC' bindtap='click'>{{AC}}</view>
+    <block wx:for="{{ids}}">
+      <view class='basic color' id='{{item}}' bindtap='click'>{{item}}</view>
+    </block>
+    <view class='equ color' id='=' bindtap='click'>{{equ}}</view>
+</view>
+<view class="tishi">参考资料：</view>
+<view class="tishi_info"><text>资料名:微信小程序---简易计算器. \t 作者:qq_40196661. \t 来源:CSDN</text></view>
+<view class="tishi_info"><text>资料名:小程序的button跳转. \t 作者:anaerobic_me. \t 来源:CSDN</text></view>
+<view class="lianxi">如有疑问请联系15706291808@163.com</view>
+
