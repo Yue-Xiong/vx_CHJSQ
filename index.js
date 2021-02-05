@@ -54,5 +54,27 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  chi(){
+       this.getcode()
+  },
+  getcode(){
+    var code;
+    code='';
+    var timestamp =Date.parse(new Date());
+    var n = timestamp *1000;
+    var date = new Date(n);
+    var s =date.getSeconds();
+    var random=new Array("麻辣鸡丁", "酸菜鱼", "宫保鸡丁","烤鸡","鱼香肉丝","回锅肉","糖醋排骨","石锅三样","烤羊排","红烧肉","水煮虾");
+    var id = Math.floor(s/6);
+    code = random[id];
+    this.setData({
+      code: code
+    })
+  },
+  qingchushipu(){
+    this.setData({
+      code: ''
+    })
   }
 })
