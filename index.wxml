@@ -18,4 +18,7 @@
     <text class="user-motto">身体健康</text>
     <view><text class="user-motto">万事如意</text></view>
   </view>
+  <view class="chishenme"  bindtap='chi'><button>今天吃什么</button></view>
+  <view class="shiwu">{{code}}</view>
+  <view class="chishenme"  bindtap='qingchushipu'><button>清除食谱</button></view>
 </view>
